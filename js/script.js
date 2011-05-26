@@ -1,26 +1,6 @@
-/* Author: 
+/* Author: Aaron Toth
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$(function() {
+	$('dl#contact').dotting();
+});

@@ -201,6 +201,22 @@ button {  width: auto; overflow: visible; }
     Author: Aaron Toth
  */
 
+abbr {
+  border-bottom: 1px #444 dotted !important;
+}
+
+a, a:hover {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
 body {
   background: #111;
   font: 1.1em/1.5em "M1m", Helvetica, Arial, sans-serif;
@@ -208,14 +224,27 @@ body {
 }
 
 #container {
-  width: 600px;
-  margin: 0 auto;
+  margin-left: 50px;
   margin-top: 150px;
+}
+
+header {
+  position: fixed;
+  left: 50%;
+  width: 200px;
+  z-index: 100;
+}
+
+p.subline {
+  font-size: 2em;
+  line-height: 1.3em;
+  font-family: "Old Standard TT", Georgia, Times, serif;
+  font-style: italic;
 }
 
 header h1 {
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-transform: uppercase;
   letter-spacing: -1px;
   margin-bottom: 30px;
@@ -224,7 +253,32 @@ header h1 {
 
 #main {
   margin-top: 30px;
-}  
+  max-width: 40%;
+  min-width: 400px;
+}
+
+dl#contact {
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+dt {
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+dt span {
+  padding-left: 15px;
+  color: #888;
+}
+
+dd {
+  float: right;
+  font-weight: bold;
+  overflow: hidden;
+}
 
 footer {
   margin-top: 30px;
