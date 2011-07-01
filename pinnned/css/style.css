@@ -260,6 +260,7 @@ h2 {
   text-align: left;
   color: #333;
   font-family: "Old Standard TT", Georgia, Times, serif;
+  font-style: italic;
   border-bottom: 1px #ddd solid;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -400,12 +401,12 @@ a#topbadge {
 
 a.button {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 2em;
   text-align: center;
   display: block;
   font-weight: bold;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 30px 40px;
   background-color: #1E90EE;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -418,6 +419,7 @@ a.button:hover {
 }
 
 a.subbutton {
+  padding: 15px 20px;
   font-size: 1.1em;
   background: #ddd;
   color: #333;
