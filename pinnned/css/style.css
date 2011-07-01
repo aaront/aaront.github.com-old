@@ -266,7 +266,7 @@ h2 {
 }
 
 h2.padded {
-  width: 950px;
+  width: 800px;
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -285,7 +285,7 @@ p.subline {
 }
 
 .constrained {
-  width: 950px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -348,7 +348,7 @@ a#topbadge {
 }
 
 .buttons {
-  width: 950px;
+  width: 800px;
   float: left;
 }
 
